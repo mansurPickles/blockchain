@@ -1,0 +1,20 @@
+INFO [01-16|14:55:05.970] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-16|14:55:06.052] Starting peer-to-peer node               instance=Geth/v1.9.9-stable/darwin-amd64/go1.13.6
+INFO [01-16|14:55:06.052] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [01-16|14:55:06.052] Allocated cache and file handles         database=/Users/brandonluong/ethereum/node2/geth/chaindata cache=512.00MiB handles=5120
+INFO [01-16|14:55:06.164] Opened ancient database                  database=/Users/brandonluong/ethereum/node2/geth/chaindata/ancient
+INFO [01-16|14:55:06.165] Initialised chain configuration          config="{ChainID: 21 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [01-16|14:55:06.165] Disk storage enabled for ethash caches   dir=/Users/brandonluong/ethereum/node2/geth/ethash count=3
+INFO [01-16|14:55:06.165] Disk storage enabled for ethash DAGs     dir=/Users/brandonluong/Library/Ethash count=2
+INFO [01-16|14:55:06.165] Initialising Ethereum protocol           versions="[64 63]" network=1234 dbversion=7
+INFO [01-16|14:55:06.166] Loaded most recent local header          number=255 hash=150ac5…ce98d4 td=34623619 age=5m33s
+INFO [01-16|14:55:06.166] Loaded most recent local full block      number=255 hash=150ac5…ce98d4 td=34623619 age=5m33s
+INFO [01-16|14:55:06.167] Loaded most recent local fast block      number=255 hash=150ac5…ce98d4 td=34623619 age=5m33s
+INFO [01-16|14:55:06.167] Loaded local transaction journal         transactions=0 dropped=0
+INFO [01-16|14:55:06.167] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [01-16|14:55:06.167] Switch sync mode from fast sync to full sync 
+INFO [01-16|14:55:06.226] New local node record                    seq=5 id=d8d4727d887c8764 ip=127.0.0.1 udp=0 tcp=30304
+INFO [01-16|14:55:06.227] Started P2P networking                   self="enode://30e6a4aeb2e493de6bf8d4da480bd60d0735f4af0c60ce9aa95eb27767668872ca4576504a51ebb7ad695eb34bb9b37de788dbd9f72074edbcd9d1f2ef44a12f@127.0.0.1:30304?discport=0"
+INFO [01-16|14:55:06.228] IPC endpoint opened                      url=/Users/brandonluong/ethereum/node2/geth.ipc
+INFO [01-16|14:55:06.306] Etherbase automatically configured       address=0x0C4A9EeEb9adC587D39d5E92B6E9Fe4abdD2cC64
+INFO [01-16|14:55:08.531] Mapped network port                      proto=tcp extport=30304 intport=30304 interface="UPNP IGDv1-IP1"

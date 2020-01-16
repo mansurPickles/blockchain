@@ -1,0 +1,14 @@
+geth --datadir "/Users/brandonluong/ethereum/blockchain" --networkid 1234 console 2>console.log
+admin.nodeInfo
+admin.peers
+admin.addPeer("enode://c6ef1b72c1c26e4453998138408028c922d01c67ed7d5c5b5a9479b04fe44a44723fadef574d48ceaeb605ff4f54d71ca3945c8d050a742616fb015211187541@71.84.50.25:30303")
+admin.peers
+miner.start(1)
+eth.blockNumber
+eth.getBlock(20)
+admin.peers
+admin.nodeInfo
+eth.blockNumber
+eth.getBlock(eth.blockNumber).miner
+miner.start(1)
+miner.stop()
