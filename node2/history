@@ -12,3 +12,4 @@ eth.blockNumber
 eth.getBlock(eth.blockNumber).miner
 miner.start(1)
 miner.stop()
+quit

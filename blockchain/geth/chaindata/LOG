@@ -129,3 +129,105 @@
 14:53:17.047058 version@stat F·[3 1] S·120KiB[119KiB 938B] Sc·[0.75 0.00]
 14:53:17.080350 db@janitor F·6 G·0
 14:53:17.080388 db@open done T·61.450593ms
+15:16:14.823282 db@close closing
+15:16:14.824657 db@close done T·1.370957ms
+=============== Jan 16, 2020 (PST) ===============
+15:16:15.879126 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:16:15.879345 version@stat F·[3 1] S·120KiB[119KiB 938B] Sc·[0.75 0.00]
+15:16:15.879376 db@open opening
+15:16:15.879448 journal@recovery F·1
+15:16:15.881711 journal@recovery recovering @30
+15:16:15.897143 memdb@flush created L0@32 N·1 S·217B "Las..der,v2362":"Las..der,v2362"
+15:16:15.899949 version@stat F·[4 1] S·120KiB[120KiB 938B] Sc·[1.00 0.00]
+15:16:15.928765 db@janitor F·7 G·0
+15:16:15.928808 db@open done T·49.418316ms
+15:16:15.928882 table@compaction L0·4 -> L1·1 S·120KiB Q·2363
+15:16:15.950065 table@build created L1@35 N·1571 S·90KiB "\x1f@\xd0..\xac\x8e\u007f,v2355":"\xeb@\xf6..\x9fe\x91,v9"
+15:16:15.950147 version@stat F·[0 1] S·90KiB[0B 90KiB] Sc·[0.00 0.00]
+15:16:15.969309 table@compaction committed F-4 S-30KiB Ke·0 D·778 T·40.361833ms
+15:16:15.970087 table@remove removed @29
+15:16:15.970404 table@remove removed @26
+15:16:15.970488 table@remove removed @23
+15:16:15.970576 table@remove removed @22
+15:23:35.048116 db@close closing
+15:23:35.048248 db@close done T·128.947µs
+=============== Jan 16, 2020 (PST) ===============
+15:24:43.158679 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:24:43.158893 version@stat F·[0 1] S·90KiB[0B 90KiB] Sc·[0.00 0.00]
+15:24:43.158921 db@open opening
+15:24:43.158988 journal@recovery F·1
+15:24:43.166037 journal@recovery recovering @33
+15:24:43.182500 memdb@flush created L0@36 N·1 S·217B "Las..der,v2364":"Las..der,v2364"
+15:24:43.190391 version@stat F·[1 1] S·90KiB[217B 90KiB] Sc·[0.25 0.00]
+15:24:43.228209 db@janitor F·5 G·1
+15:24:43.228224 db@janitor removing table-32
+15:24:43.228312 db@open done T·69.38284ms
+15:29:29.922241 db@close closing
+15:29:29.922403 db@close done T·159.096µs
+=============== Jan 16, 2020 (PST) ===============
+15:29:33.580301 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:29:33.580502 version@stat F·[1 1] S·90KiB[217B 90KiB] Sc·[0.25 0.00]
+15:29:33.580530 db@open opening
+15:29:33.580598 journal@recovery F·1
+15:29:33.587715 journal@recovery recovering @37
+15:29:33.600830 memdb@flush created L0@39 N·1 S·217B "Las..der,v2366":"Las..der,v2366"
+15:29:33.608552 version@stat F·[2 1] S·90KiB[434B 90KiB] Sc·[0.50 0.00]
+15:29:33.646190 db@janitor F·5 G·0
+15:29:33.646219 db@open done T·65.678411ms
+=============== Jan 16, 2020 (PST) ===============
+15:31:29.066323 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:31:29.066532 version@stat F·[2 1] S·90KiB[434B 90KiB] Sc·[0.50 0.00]
+15:31:29.066559 db@open opening
+15:31:29.066626 journal@recovery F·1
+15:31:29.074119 journal@recovery recovering @40
+15:31:29.091376 memdb@flush created L0@42 N·1 S·217B "Las..der,v2368":"Las..der,v2368"
+15:31:29.099801 version@stat F·[3 1] S·91KiB[651B 90KiB] Sc·[0.75 0.00]
+15:31:29.121844 db@janitor F·6 G·0
+15:31:29.121882 db@open done T·55.310519ms
+15:32:36.515243 db@close closing
+15:32:36.515349 db@close done T·104.185µs
+=============== Jan 16, 2020 (PST) ===============
+15:34:20.030914 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:34:20.031136 version@stat F·[3 1] S·91KiB[651B 90KiB] Sc·[0.75 0.00]
+15:34:20.031164 db@open opening
+15:34:20.031230 journal@recovery F·1
+15:34:20.033502 journal@recovery recovering @43
+15:34:20.047498 memdb@flush created L0@45 N·1 S·217B "Las..der,v2370":"Las..der,v2370"
+15:34:20.050201 version@stat F·[4 1] S·91KiB[868B 90KiB] Sc·[1.00 0.00]
+15:34:20.077504 db@janitor F·7 G·0
+15:34:20.077550 db@open done T·46.364567ms
+15:34:20.077612 table@compaction L0·4 -> L1·1 S·91KiB Q·2371
+15:34:20.094086 table@build created L1@48 N·1571 S·90KiB "\x1f@\xd0..\xac\x8e\u007f,v2355":"\xeb@\xf6..\x9fe\x91,v9"
+15:34:20.094205 version@stat F·[0 1] S·90KiB[0B 90KiB] Sc·[0.00 0.00]
+15:34:20.103416 table@compaction committed F-4 S-868B Ke·0 D·4 T·25.742798ms
+15:34:20.104342 table@remove removed @42
+15:34:20.104933 table@remove removed @39
+15:34:20.105050 table@remove removed @36
+15:34:20.105148 table@remove removed @35
+15:35:01.796518 db@close closing
+15:35:01.796660 db@close done T·140.505µs
+=============== Jan 16, 2020 (PST) ===============
+15:36:01.915514 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:36:01.915753 version@stat F·[0 1] S·90KiB[0B 90KiB] Sc·[0.00 0.00]
+15:36:01.915782 db@open opening
+15:36:01.915851 journal@recovery F·1
+15:36:01.918548 journal@recovery recovering @46
+15:36:01.935859 memdb@flush created L0@49 N·1 S·217B "Las..der,v2372":"Las..der,v2372"
+15:36:01.938487 version@stat F·[1 1] S·90KiB[217B 90KiB] Sc·[0.25 0.00]
+15:36:01.971477 db@janitor F·5 G·1
+15:36:01.971501 db@janitor removing table-45
+15:36:01.971596 db@open done T·55.80409ms
+15:38:59.545247 db@close closing
+15:38:59.545387 db@close done T·137.562µs
+=============== Jan 16, 2020 (PST) ===============
+15:39:12.914214 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:39:12.914495 version@stat F·[1 1] S·90KiB[217B 90KiB] Sc·[0.25 0.00]
+15:39:12.914532 db@open opening
+15:39:12.914626 journal@recovery F·1
+15:39:12.917692 journal@recovery recovering @50
+15:39:12.934827 memdb@flush created L0@52 N·1 S·217B "Las..der,v2374":"Las..der,v2374"
+15:39:12.937861 version@stat F·[2 1] S·90KiB[434B 90KiB] Sc·[0.50 0.00]
+15:39:12.986218 db@janitor F·5 G·0
+15:39:12.986262 db@open done T·71.716471ms
+16:32:16.475819 db@close closing
+16:32:16.476044 db@close done T·224.08µs

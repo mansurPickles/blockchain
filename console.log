@@ -1,20 +1,133 @@
-INFO [01-16|14:55:05.970] Maximum peer count                       ETH=50 LES=0 total=50
-INFO [01-16|14:55:06.052] Starting peer-to-peer node               instance=Geth/v1.9.9-stable/darwin-amd64/go1.13.6
-INFO [01-16|14:55:06.052] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
-INFO [01-16|14:55:06.052] Allocated cache and file handles         database=/Users/brandonluong/ethereum/node2/geth/chaindata cache=512.00MiB handles=5120
-INFO [01-16|14:55:06.164] Opened ancient database                  database=/Users/brandonluong/ethereum/node2/geth/chaindata/ancient
-INFO [01-16|14:55:06.165] Initialised chain configuration          config="{ChainID: 21 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
-INFO [01-16|14:55:06.165] Disk storage enabled for ethash caches   dir=/Users/brandonluong/ethereum/node2/geth/ethash count=3
-INFO [01-16|14:55:06.165] Disk storage enabled for ethash DAGs     dir=/Users/brandonluong/Library/Ethash count=2
-INFO [01-16|14:55:06.165] Initialising Ethereum protocol           versions="[64 63]" network=1234 dbversion=7
-INFO [01-16|14:55:06.166] Loaded most recent local header          number=255 hash=150ac5…ce98d4 td=34623619 age=5m33s
-INFO [01-16|14:55:06.166] Loaded most recent local full block      number=255 hash=150ac5…ce98d4 td=34623619 age=5m33s
-INFO [01-16|14:55:06.167] Loaded most recent local fast block      number=255 hash=150ac5…ce98d4 td=34623619 age=5m33s
-INFO [01-16|14:55:06.167] Loaded local transaction journal         transactions=0 dropped=0
-INFO [01-16|14:55:06.167] Regenerated local transaction journal    transactions=0 accounts=0
-WARN [01-16|14:55:06.167] Switch sync mode from fast sync to full sync 
-INFO [01-16|14:55:06.226] New local node record                    seq=5 id=d8d4727d887c8764 ip=127.0.0.1 udp=0 tcp=30304
-INFO [01-16|14:55:06.227] Started P2P networking                   self="enode://30e6a4aeb2e493de6bf8d4da480bd60d0735f4af0c60ce9aa95eb27767668872ca4576504a51ebb7ad695eb34bb9b37de788dbd9f72074edbcd9d1f2ef44a12f@127.0.0.1:30304?discport=0"
-INFO [01-16|14:55:06.228] IPC endpoint opened                      url=/Users/brandonluong/ethereum/node2/geth.ipc
-INFO [01-16|14:55:06.306] Etherbase automatically configured       address=0x0C4A9EeEb9adC587D39d5E92B6E9Fe4abdD2cC64
-INFO [01-16|14:55:08.531] Mapped network port                      proto=tcp extport=30304 intport=30304 interface="UPNP IGDv1-IP1"
+INFO [01-16|15:39:12.830] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-16|15:39:12.913] Starting peer-to-peer node               instance=Geth/v1.9.9-stable/darwin-amd64/go1.13.6
+INFO [01-16|15:39:12.913] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [01-16|15:39:12.913] Allocated cache and file handles         database=/Users/brandonluong/ethereum/blockchain/geth/chaindata cache=512.00MiB handles=5120
+INFO [01-16|15:39:13.034] Opened ancient database                  database=/Users/brandonluong/ethereum/blockchain/geth/chaindata/ancient
+INFO [01-16|15:39:13.035] Initialised chain configuration          config="{ChainID: 21 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [01-16|15:39:13.035] Disk storage enabled for ethash caches   dir=/Users/brandonluong/ethereum/blockchain/geth/ethash count=3
+INFO [01-16|15:39:13.035] Disk storage enabled for ethash DAGs     dir=/Users/brandonluong/Library/Ethash count=2
+INFO [01-16|15:39:13.035] Initialising Ethereum protocol           versions="[64 63]" network=1234 dbversion=7
+INFO [01-16|15:39:13.036] Loaded most recent local header          number=255 hash=150ac5…ce98d4 td=34623619 age=49m40s
+INFO [01-16|15:39:13.036] Loaded most recent local full block      number=255 hash=150ac5…ce98d4 td=34623619 age=49m40s
+INFO [01-16|15:39:13.036] Loaded most recent local fast block      number=255 hash=150ac5…ce98d4 td=34623619 age=49m40s
+INFO [01-16|15:39:13.037] Loaded local transaction journal         transactions=0 dropped=0
+INFO [01-16|15:39:13.037] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [01-16|15:39:13.037] Switch sync mode from fast sync to full sync 
+INFO [01-16|15:39:13.114] New local node record                    seq=20 id=c4da99cc179921e4 ip=127.0.0.1 udp=30304 tcp=30304
+INFO [01-16|15:39:13.115] Started P2P networking                   self=enode://c6ef1b72c1c26e4453998138408028c922d01c67ed7d5c5b5a9479b04fe44a44723fadef574d48ceaeb605ff4f54d71ca3945c8d050a742616fb015211187541@127.0.0.1:30304
+INFO [01-16|15:39:13.117] IPC endpoint opened                      url=/Users/brandonluong/ethereum/blockchain/geth.ipc
+INFO [01-16|15:39:13.117] HTTP endpoint opened                     url=http://127.0.0.1:8545 cors=* vhosts=localhost
+INFO [01-16|15:39:13.192] Etherbase automatically configured       address=0x37992dD7C667E8F62b08E1Fa9eeebBEDF8932223
+INFO [01-16|15:39:15.342] New local node record                    seq=21 id=c4da99cc179921e4 ip=71.84.50.25 udp=30304 tcp=30304
+INFO [01-16|15:39:15.349] Mapped network port                      proto=udp extport=30304 intport=30304 interface="UPNP IGDv1-IP1"
+INFO [01-16|15:39:15.511] Mapped network port                      proto=tcp extport=30304 intport=30304 interface="UPNP IGDv1-IP1"
+WARN [01-16|16:10:56.745] Served eth_sendTransaction               conn=127.0.0.1:65384 reqid=102 t=1.312052ms err="authentication needed: password or unlock"
+WARN [01-16|16:11:08.933] Served personal_sign                     conn=127.0.0.1:65430 reqid=1   t=29.803µs   err="the method personal_sign does not exist/is not available"
+WARN [01-16|16:11:11.585] Served eth_sendTransaction               conn=127.0.0.1:65386 reqid=117 t=122.692µs  err="authentication needed: password or unlock"
+WARN [01-16|16:11:18.718] Served personal_sign                     conn=127.0.0.1:65384 reqid=2   t=24.261µs   err="the method personal_sign does not exist/is not available"
+WARN [01-16|16:11:40.096] Served eth_sendTransaction               conn=127.0.0.1:65384 reqid=136 t=110.485µs  err="authentication needed: password or unlock"
+WARN [01-16|16:11:48.069] Served personal_sign                     conn=127.0.0.1:65430 reqid=3   t=29.856µs   err="the method personal_sign does not exist/is not available"
+INFO [01-16|16:15:23.066] Block synchronisation started 
+WARN [01-16|16:15:23.854] Synchronisation failed, dropping peer    peer=6f2875dcab23625f err="action from bad peer ignored"
+WARN [01-16|16:15:24.302] Failed account unlock attempt            address=0x37992dD7C667E8F62b08E1Fa9eeebBEDF8932223 err="could not decrypt key with given password"
+WARN [01-16|16:15:24.303] Served personal_unlockAccount            reqid=12  t=858.818407ms err="could not decrypt key with given password"
+INFO [01-16|16:16:08.562] Setting new local account                address=0x37992dD7C667E8F62b08E1Fa9eeebBEDF8932223
+INFO [01-16|16:16:08.562] Submitted contract creation              fullhash=0xffbef4dad35473dbd3cf61d09f8cdfd80ce78ec80da8a18bc5e7146c51737306 contract=0x56340038BCBBCb9D70FABd454d1b22d82EcD2c8c
+INFO [01-16|16:16:39.666] Submitted contract creation              fullhash=0xc0f436ef628d55f24fda6fc09f017a5e9df48abf1e6bd297b130dfe35ba1879d contract=0x0fb9ad524cC7b7439aD17cA50D05124D94989CAF
+INFO [01-16|16:17:11.584] Updated mining threads                   threads=1
+INFO [01-16|16:17:11.585] Transaction pool price threshold updated price=1000000000
+INFO [01-16|16:17:11.585] Commit new mining work                   number=256 sealhash=daff68…57956e uncles=0 txs=0 gas=0 fees=0 elapsed=239.912µs
+INFO [01-16|16:17:11.590] Commit new mining work                   number=256 sealhash=515509…f27880 uncles=0 txs=2 gas=731690 fees=0.00073169 elapsed=5.489ms
+INFO [01-16|16:17:30.184] Successfully sealed new block            number=256 sealhash=515509…f27880 hash=5bafa0…eed950 elapsed=18.594s
+INFO [01-16|16:17:30.184] 🔨 mined potential block                  number=256 hash=5bafa0…eed950
+INFO [01-16|16:17:30.184] Commit new mining work                   number=257 sealhash=6a5731…422dbd uncles=0 txs=0 gas=0      fees=0          elapsed=140.206µs
+INFO [01-16|16:17:34.015] Successfully sealed new block            number=257 sealhash=6a5731…422dbd hash=3c647e…ea38b2 elapsed=3.830s
+INFO [01-16|16:17:34.015] 🔨 mined potential block                  number=257 hash=3c647e…ea38b2
+INFO [01-16|16:17:34.015] Commit new mining work                   number=258 sealhash=4df522…824aee uncles=0 txs=0 gas=0      fees=0          elapsed=162.966µs
+INFO [01-16|16:17:34.108] Successfully sealed new block            number=258 sealhash=4df522…824aee hash=001cbf…1bade6 elapsed=92.506ms
+INFO [01-16|16:17:34.108] 🔨 mined potential block                  number=258 hash=001cbf…1bade6
+INFO [01-16|16:17:34.108] Commit new mining work                   number=259 sealhash=c0205f…1cb79e uncles=0 txs=0 gas=0      fees=0          elapsed=134.566µs
+INFO [01-16|16:17:39.827] Successfully sealed new block            number=259 sealhash=c0205f…1cb79e hash=8bfa84…e697c5 elapsed=5.719s
+INFO [01-16|16:17:39.827] 🔨 mined potential block                  number=259 hash=8bfa84…e697c5
+INFO [01-16|16:17:39.828] Commit new mining work                   number=260 sealhash=a07298…14de69 uncles=0 txs=0 gas=0      fees=0          elapsed=173.36µs
+INFO [01-16|16:17:41.967] Successfully sealed new block            number=260 sealhash=a07298…14de69 hash=b64b42…b70616 elapsed=2.139s
+INFO [01-16|16:17:41.967] 🔨 mined potential block                  number=260 hash=b64b42…b70616
+INFO [01-16|16:17:41.967] Commit new mining work                   number=261 sealhash=fa5d51…5ab599 uncles=0 txs=0 gas=0      fees=0          elapsed=157.706µs
+INFO [01-16|16:17:42.496] Successfully sealed new block            number=261 sealhash=fa5d51…5ab599 hash=273336…80b22e elapsed=528.239ms
+INFO [01-16|16:17:42.496] 🔨 mined potential block                  number=261 hash=273336…80b22e
+INFO [01-16|16:17:42.496] Commit new mining work                   number=262 sealhash=ca76da…2a0c04 uncles=0 txs=0 gas=0      fees=0          elapsed=140.427µs
+INFO [01-16|16:17:46.757] Successfully sealed new block            number=262 sealhash=ca76da…2a0c04 hash=8f07dd…98dd9c elapsed=4.261s
+INFO [01-16|16:17:46.758] 🔨 mined potential block                  number=262 hash=8f07dd…98dd9c
+INFO [01-16|16:17:46.758] Commit new mining work                   number=263 sealhash=3a3ad9…2fd762 uncles=0 txs=0 gas=0      fees=0          elapsed=149.161µs
+INFO [01-16|16:17:47.549] Successfully sealed new block            number=263 sealhash=3a3ad9…2fd762 hash=189dd3…21364a elapsed=791.081ms
+INFO [01-16|16:17:47.549] 🔗 block reached canonical chain          number=256 hash=5bafa0…eed950
+INFO [01-16|16:17:47.549] 🔨 mined potential block                  number=263 hash=189dd3…21364a
+INFO [01-16|16:17:47.549] Commit new mining work                   number=264 sealhash=421c3f…37db92 uncles=0 txs=0 gas=0      fees=0          elapsed=217.218µs
+WARN [01-16|16:21:32.168] Served eth_sendTransaction               conn=127.0.0.1:51409 reqid=668 t=871.272µs    err="authentication needed: password or unlock"
+WARN [01-16|16:21:55.678] Served eth_sendTransaction               conn=127.0.0.1:51411 reqid=684 t=119.661µs    err="authentication needed: password or unlock"
+WARN [01-16|16:22:05.302] Served eth_sendTransaction               conn=127.0.0.1:51411 reqid=696 t=147.956µs    err="authentication needed: password or unlock"
+WARN [01-16|16:22:15.125] Served eth_sendTransaction               conn=127.0.0.1:65384 reqid=707 t=105.722µs    err="authentication needed: password or unlock"
+WARN [01-16|16:22:22.330] Served personal_sign                     conn=127.0.0.1:51409 reqid=4   t=23.135µs     err="the method personal_sign does not exist/is not available"
+INFO [01-16|16:23:05.493] Submitted contract creation              fullhash=0x4fc9f6815995a0ec90e95cd48edfa6ec75dffc28945be13dde62e1855b68e598 contract=0xDDc43108009308356C91902948D4133f118a27a4
+INFO [01-16|16:27:36.298] Updated mining threads                   threads=1
+INFO [01-16|16:27:36.298] Transaction pool price threshold updated price=1000000000
+INFO [01-16|16:27:36.298] Commit new mining work                   number=264 sealhash=53bc2d…d940ce uncles=0 txs=0 gas=0      fees=0          elapsed=230.224µs
+INFO [01-16|16:27:36.303] Commit new mining work                   number=264 sealhash=809cf9…51ded3 uncles=0 txs=1 gas=366357 fees=0.000366357 elapsed=5.028ms
+INFO [01-16|16:27:36.456] Successfully sealed new block            number=264 sealhash=809cf9…51ded3 hash=7e7969…0a22a8 elapsed=153.590ms
+INFO [01-16|16:27:36.456] 🔗 block reached canonical chain          number=257 hash=3c647e…ea38b2
+INFO [01-16|16:27:36.456] 🔨 mined potential block                  number=264 hash=7e7969…0a22a8
+INFO [01-16|16:27:36.457] Commit new mining work                   number=265 sealhash=55293c…b9e5fe uncles=0 txs=0 gas=0      fees=0           elapsed=155.835µs
+INFO [01-16|16:27:37.723] Successfully sealed new block            number=265 sealhash=55293c…b9e5fe hash=6c61f6…8a61dc elapsed=1.266s
+INFO [01-16|16:27:37.723] 🔗 block reached canonical chain          number=258 hash=001cbf…1bade6
+INFO [01-16|16:27:37.723] 🔨 mined potential block                  number=265 hash=6c61f6…8a61dc
+INFO [01-16|16:27:37.724] Commit new mining work                   number=266 sealhash=ba696c…2dfe2d uncles=0 txs=0 gas=0      fees=0           elapsed=265.376µs
+INFO [01-16|16:27:38.065] Successfully sealed new block            number=266 sealhash=ba696c…2dfe2d hash=8d7e74…f2a79e elapsed=341.150ms
+INFO [01-16|16:27:38.065] 🔗 block reached canonical chain          number=259 hash=8bfa84…e697c5
+INFO [01-16|16:27:38.065] 🔨 mined potential block                  number=266 hash=8d7e74…f2a79e
+INFO [01-16|16:27:38.065] Commit new mining work                   number=267 sealhash=bf0408…9b4e9b uncles=0 txs=0 gas=0      fees=0           elapsed=143.633µs
+INFO [01-16|16:27:39.329] Successfully sealed new block            number=267 sealhash=bf0408…9b4e9b hash=845fa1…af606f elapsed=1.263s
+INFO [01-16|16:27:39.329] 🔗 block reached canonical chain          number=260 hash=b64b42…b70616
+INFO [01-16|16:27:39.329] 🔨 mined potential block                  number=267 hash=845fa1…af606f
+INFO [01-16|16:27:39.329] Commit new mining work                   number=268 sealhash=ccdecd…bb19bc uncles=0 txs=0 gas=0      fees=0           elapsed=244.766µs
+INFO [01-16|16:27:39.703] Successfully sealed new block            number=268 sealhash=ccdecd…bb19bc hash=54d472…5b79d0 elapsed=374.412ms
+INFO [01-16|16:27:39.703] 🔗 block reached canonical chain          number=261 hash=273336…80b22e
+INFO [01-16|16:27:39.704] Mining too far in the future             wait=2s
+INFO [01-16|16:27:39.704] 🔨 mined potential block                  number=268 hash=54d472…5b79d0
+INFO [01-16|16:27:41.709] Commit new mining work                   number=269 sealhash=61c134…be630a uncles=0 txs=0 gas=0      fees=0           elapsed=2.005s
+INFO [01-16|16:27:43.114] Successfully sealed new block            number=269 sealhash=61c134…be630a hash=258ab7…9a7d9a elapsed=1.405s
+INFO [01-16|16:27:43.115] 🔗 block reached canonical chain          number=262 hash=8f07dd…98dd9c
+INFO [01-16|16:27:43.115] 🔨 mined potential block                  number=269 hash=258ab7…9a7d9a
+INFO [01-16|16:27:43.115] Commit new mining work                   number=270 sealhash=e7673f…c1ae58 uncles=0 txs=0 gas=0      fees=0           elapsed=209.176µs
+WARN [01-16|16:28:01.010] Served eth_sendTransaction               conn=127.0.0.1:65384 reqid=1392 t=751.433µs    err="authentication needed: password or unlock"
+WARN [01-16|16:28:15.651] Served eth_sendTransaction               conn=127.0.0.1:51409 reqid=1407 t=94.06µs      err="authentication needed: password or unlock"
+WARN [01-16|16:29:36.350] Served eth_sendTransaction               conn=127.0.0.1:51409 reqid=1460 t=164.275µs    err="authentication needed: password or unlock"
+WARN [01-16|16:29:44.204] Served eth_sendTransaction               conn=127.0.0.1:51409 reqid=1469 t=110.417µs    err="authentication needed: password or unlock"
+INFO [01-16|16:30:43.667] Submitted contract creation              fullhash=0xbf0cde059397fdeb9d4b9bfd74b3b08701ff0990d1be03258a3c2ab3fafc40c5 contract=0x8289fEdE26E00dcFA94311409E12549540D728B8
+INFO [01-16|16:31:05.477] Updated mining threads                   threads=1
+INFO [01-16|16:31:05.477] Transaction pool price threshold updated price=1000000000
+INFO [01-16|16:31:05.477] Commit new mining work                   number=270 sealhash=1fa56f…8abbed uncles=0 txs=0 gas=0      fees=0           elapsed=189.23µs
+INFO [01-16|16:31:05.479] Commit new mining work                   number=270 sealhash=38390a…3f32bc uncles=0 txs=1 gas=366357 fees=0.000366357 elapsed=2.161ms
+INFO [01-16|16:31:08.826] Successfully sealed new block            number=270 sealhash=38390a…3f32bc hash=4050ea…ba51fb elapsed=3.347s
+INFO [01-16|16:31:08.826] 🔗 block reached canonical chain          number=263 hash=189dd3…21364a
+INFO [01-16|16:31:08.826] 🔨 mined potential block                  number=270 hash=4050ea…ba51fb
+INFO [01-16|16:31:08.826] Commit new mining work                   number=271 sealhash=2ce352…2416f3 uncles=0 txs=0 gas=0      fees=0           elapsed=164.611µs
+INFO [01-16|16:31:09.937] Successfully sealed new block            number=271 sealhash=2ce352…2416f3 hash=765923…b8f431 elapsed=1.111s
+INFO [01-16|16:31:09.937] 🔗 block reached canonical chain          number=264 hash=7e7969…0a22a8
+INFO [01-16|16:31:09.937] 🔨 mined potential block                  number=271 hash=765923…b8f431
+INFO [01-16|16:31:09.937] Commit new mining work                   number=272 sealhash=19b680…566d33 uncles=0 txs=0 gas=0      fees=0           elapsed=154.185µs
+INFO [01-16|16:31:10.220] Successfully sealed new block            number=272 sealhash=19b680…566d33 hash=32254a…cf0efa elapsed=282.623ms
+INFO [01-16|16:31:10.220] 🔗 block reached canonical chain          number=265 hash=6c61f6…8a61dc
+INFO [01-16|16:31:10.220] 🔨 mined potential block                  number=272 hash=32254a…cf0efa
+INFO [01-16|16:31:10.220] Commit new mining work                   number=273 sealhash=010e43…4d5ea4 uncles=0 txs=0 gas=0      fees=0           elapsed=150.346µs
+INFO [01-16|16:32:16.469] HTTP endpoint closed                     url=http://127.0.0.1:8545
+INFO [01-16|16:32:16.470] IPC endpoint closed                      url=/Users/brandonluong/ethereum/blockchain/geth.ipc
+INFO [01-16|16:32:16.471] Writing cached state to disk             block=272 hash=32254a…cf0efa root=5d3f24…12a9eb
+INFO [01-16|16:32:16.473] Persisted trie from memory database      nodes=9 size=2.63KiB time=1.629391ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=33 livesize=4.97KiB
+INFO [01-16|16:32:16.475] Writing cached state to disk             block=271 hash=765923…b8f431 root=60466e…dec9a1
+INFO [01-16|16:32:16.475] Persisted trie from memory database      nodes=2 size=391.00B time=51.874µs   gcnodes=0 gcsize=0.00B gctime=0s livenodes=31 livesize=4.59KiB
+INFO [01-16|16:32:16.475] Writing cached state to disk             block=145 hash=d55d91…8c573b root=ce17c8…145a54
+INFO [01-16|16:32:16.475] Persisted trie from memory database      nodes=0 size=0.00B   time=1.738µs    gcnodes=0 gcsize=0.00B gctime=0s livenodes=31 livesize=4.59KiB
+INFO [01-16|16:32:16.475] Blockchain manager stopped 
+INFO [01-16|16:32:16.475] Stopping Ethereum protocol 
+INFO [01-16|16:32:16.475] Ethereum protocol stopped 
+INFO [01-16|16:32:16.475] Transaction pool stopped 
